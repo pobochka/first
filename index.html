@@ -14,29 +14,25 @@
   </head>
   <body>
     <header>
-      <h1>Library</h1>
+      <div>
+        <h1>Library</h1>
+      </div>
     </header>
     <div class="mainCont">
       <div id="menu">
         <h3>List:</h3>
         <form id="listing">
           <ul id="listPoints">
-            <li id="empty" class="high">
+            <!-- <li id="empty" class="high">
               <span><i>List is empty</i></span>
-              <button class="btn btn-outline-secondary accept" type="button">
-                Button
-              </button>
-              <button class="btn btn-outline-secondary delete" type="button">
-                Button
-              </button>
-            </li>
+            </li> -->
           </ul>
         </form>
       </div>
 
       <div id="form">
         <form id="taskAdd">
-          <label for="form-control">Add new point</label>
+          <label form="form-control">Add new point</label>
 
           <div class="input-group">
             <input
@@ -47,9 +43,7 @@
             />
           </div>
           <div class="col-auto">
-            <button type="submit" class="up btn btn-primary mb-3">
-              Add to up
-            </button>
+            <button type="submit" class="up btn btn-primary mb-3">Add</button>
           </div>
         </form>
       </div>
@@ -57,6 +51,6 @@
 
     <footer></footer>
 
-    <script src="script/main.js"></script>
+    <script src="script/main.js" defer></script>
   </body>
 </html>
